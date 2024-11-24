@@ -1,0 +1,13 @@
+*
+!icon16.png
+!icon48.png
+!icon128.png
+!README.md
+!PRIVACY.md
+!assets/
+!assets/**
+!manifest.json
+!popup.html
+!popup.js
+!contentScript.js
+!.gitignore

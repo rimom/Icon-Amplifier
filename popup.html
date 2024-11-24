@@ -1,0 +1,75 @@
+<!-- Code generate by chatgpt+claude -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Icon Amplifier</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 250px;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    h3 {
+      margin-top: 0;
+      text-align: center;
+    }
+    .controls {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .controls button {
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+    .controls input[type="range"] {
+      flex-grow: 1;
+    }
+    .options {
+      margin-bottom: 15px;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    #reset {
+      width: 100%;
+      padding: 8px;
+      background-color: #ff4d4d;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    #reset:hover {
+      background-color: #e60000;
+    }
+  </style>
+</head>
+<body>
+  <h3>Amplify</h3>
+  <div class="controls">
+    <button id="decrease">-</button>
+    <input id="slider" type="range" min="50" max="1000" value="100">
+    <button id="increase">+</button>
+  </div>
+  <div class="options">
+    <label>
+      <input type="checkbox" id="resize-container" checked>
+      Force container resize
+    </label>
+    <label>
+      <input type="checkbox" id="ignore-svg" checked>
+      Ignore SVG elements
+    </label>
+  </div>
+  <button id="reset">Reset</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
