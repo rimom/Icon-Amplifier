@@ -1,4 +1,3 @@
-// Code generate by chatgpt+claude
 document.addEventListener('DOMContentLoaded', () => {
     const slider = document.getElementById("slider");
     const decreaseBtn = document.getElementById("decrease");

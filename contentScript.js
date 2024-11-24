@@ -1,5 +1,3 @@
-// Code generate by chatgpt+claude
-
 // Utility function to determine if an image is an SVG
 function isSvgImage(img) {
     if (img.tagName.toLowerCase() !== "img") return false;
