@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Icon Amplifier",
-    "version": "1.6",
+    "version": "1.7",
     "description": "Resize small images in any website to help you view it better.",
     "permissions": [
         "activeTab",
